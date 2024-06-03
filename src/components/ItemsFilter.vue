@@ -3,6 +3,7 @@ import { useLaptiStore } from "../stores/LaptiStore";
 import StyledButton from "./StyledButton.vue";
 import { ref, computed, watch } from "vue";
 import { AvailableSizes } from "../types";
+import { Gender } from "../types";
 
 const { minPrice, maxPrice, lapiSizes, filterLapti } = useLaptiStore();
 const minInput = ref<number>(minPrice);
@@ -18,7 +19,7 @@ const laptiFilter = ref<AvailableSizes>({
   42: false,
   43: false,
 });
-const pickedGender = ref("none");
+const pickedGender = ref<Gender>("none");
 
 const pickedSizes = computed(() =>
   Object.entries(laptiFilter.value)
