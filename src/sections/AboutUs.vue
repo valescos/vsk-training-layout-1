@@ -36,7 +36,7 @@ import lapti_bg from "../assets/lapti_bg.jpg";
       class="border-[1px] border-white left-[15%] -top-[29%] w-[300px] h-[300px] absolute rounded-full"
     />
     <div
-      class="bg-[#F14F4F] left-[30.5%] top-[9%] w-[15px] h-[15px] absolute rounded-full"
+      class="bg-[#F14F4F] left-[29.2%] top-[9%] w-[15px] h-[15px] absolute rounded-full"
     />
   </div>
 </template>
