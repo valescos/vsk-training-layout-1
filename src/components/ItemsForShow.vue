@@ -39,7 +39,7 @@ function showMore(val: number) {
           class="w-full"
           @click="showMore(-3)"
           type="red"
-          :disabled="limit === 3 || limit >= filteredLapti.length"
+          :disabled="limit === 3 || filteredLapti.length <= 3"
           >Показать меньше</StyledButton
         >
       </div>
